@@ -1,0 +1,15 @@
+DEPLOYMENT BENCHMARK LOG
+Project: WordPress IaC Automation
+Author: Bruno
+Generated_at: 2025-12-02T19:04:25-0300
+==============================================
+
+[PIPELINE]
+start: 2025-12-02T19:04:25-0300
+end:   2025-12-02T19:09:29-0300
+duration_seconds: 304
+instance_public_ip: 54.233.115.5
+
+==============================================
+END OF LOG
+==============================================
