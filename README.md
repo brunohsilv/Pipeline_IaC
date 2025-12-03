@@ -56,6 +56,8 @@ Ativar o ambiente virtual: ```source venv/bin/activate```
 
 Instalar dependências dentro do venv: ```pip install pandas seaborn matplotlib```
 
-Rodar o script de gráficos: ```python generate_graphs.py```
+Rodar o script de gráficos: ```python3 graficos.py```
+
+Rodar o script de metricas: ```python3 metricas.py```
 
 
