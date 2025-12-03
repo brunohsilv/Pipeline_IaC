@@ -1,8 +1,8 @@
-# 🚀 WordPress Automated Deployment
+# WordPress Automated Deployment
 
 Deploy automatizado do WordPress na AWS usando Terraform, Ansible e Docker.
 
-## ✨ Características
+##  Características
 
 - ✅ **Infraestrutura como Código** (Terraform)
 - ✅ **Configuração automatizada** (Ansible) 
@@ -10,7 +10,7 @@ Deploy automatizado do WordPress na AWS usando Terraform, Ansible e Docker.
 - ✅ **Free Tier** (t3.micro, 8GB EBS)
 - ✅ **1 comando para deploy completo**
 
-## 🛠️ Pré-requisitos
+## Pré-requisitos
 
 ### Instalação das ferramentas:
 
