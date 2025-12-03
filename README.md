@@ -60,4 +60,19 @@ Rodar o script de gráficos: ```python3 graficos.py```
 
 Rodar o script de metricas: ```python3 metricas.py```
 
+## Observações
+
+O Deploy cria automaticamente um csv e o log do benchmark do tempo do processo
+
+Deletar pasta benchmarks e logs para iniciar um benchmark do zero.
+
+Usar o script loop.sh para rodar o código quantas vezes quiser realizar Deploy com benchmark.
+
+Passar um número como argumento para o número de vezes a ser repetido o Deploy juntamente com benchmark
+
+Exemplo: ```./loop.sh 13
+
+
+
+
 
