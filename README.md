@@ -1,8 +1,8 @@
-# 🚀 WordPress Automated Deployment
+# WordPress Automated Deployment
 
 Deploy automatizado do WordPress na AWS usando Terraform, Ansible e Docker.
 
-## ✨ Características
+##  Características
 
 - ✅ **Infraestrutura como Código** (Terraform)
 - ✅ **Configuração automatizada** (Ansible) 
@@ -10,7 +10,7 @@ Deploy automatizado do WordPress na AWS usando Terraform, Ansible e Docker.
 - ✅ **Free Tier** (t3.micro, 8GB EBS)
 - ✅ **1 comando para deploy completo**
 
-## 🛠️ Pré-requisitos
+## Pré-requisitos
 
 ### Instalação das ferramentas:
 
@@ -56,6 +56,23 @@ Ativar o ambiente virtual: ```source venv/bin/activate```
 
 Instalar dependências dentro do venv: ```pip install pandas seaborn matplotlib```
 
-Rodar o script de gráficos: ```python generate_graphs.py```
+Rodar o script de gráficos: ```python3 graficos.py```
+
+Rodar o script de metricas: ```python3 metricas.py```
+
+## Observações
+
+O Deploy cria automaticamente um csv e o log do benchmark do tempo do processo
+
+Deletar pasta benchmarks e logs para iniciar um benchmark do zero.
+
+Usar o script loop.sh para rodar o código quantas vezes quiser realizar Deploy com benchmark.
+
+Passar um número como argumento para o número de vezes a ser repetido o Deploy juntamente com benchmark
+
+Exemplo: ```./loop.sh 13
+
+
+
 
 
