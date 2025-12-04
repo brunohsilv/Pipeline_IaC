@@ -9,13 +9,19 @@ os.makedirs("benchmark_images", exist_ok=True)
 # Ler CSV consolidado
 df = pd.read_csv("benchmarks/all_benchmarks.csv")
 
-# Gráfico 1: Tempo Total por execução (barplot)
-plt.figure(figsize=(10,5))
-sns.barplot(x='run_id', y='total_seconds', data=df, palette="Blues")
-plt.title("Tempo Total por Execução do Pipeline")
-plt.xlabel("Execução")
-plt.ylabel("Tempo Total (s)")
-plt.savefig("benchmark_images/tempo_total_por_execucao.png")
+# Gráfico 1: Tempo Total por execução (barplot) - AJUSTADO
+plt.figure(figsize=(14, 6))
+ax = sns.barplot(x='run_id', y='total_seconds', data=df, palette="Blues")
+plt.title("Tempo Total por Execução do Pipeline", fontsize=14)
+plt.xlabel("Execução", fontsize=12)
+plt.ylabel("Tempo Total (s)", fontsize=12)
+
+# Mostrar labels intercalados (1 sim, 2 não, 3 sim, 4 não...)
+labels = [df['run_id'].iloc[i] if i % 2 == 0 else '' for i in range(len(df))]
+ax.set_xticklabels(labels, rotation=0, fontsize=11)
+
+plt.tight_layout()
+plt.savefig("benchmark_images/tempo_total_por_execucao.png", dpi=150)
 plt.close()
 
 # Gráfico 2: Boxplot do tempo total
