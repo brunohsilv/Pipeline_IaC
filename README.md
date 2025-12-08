@@ -21,7 +21,7 @@ sudo apt install unzip
 
 ```bash
 # Terraform (Linux/WSL)
-curl -fsSL https://releases.hashicorp.com/terraform/1.7.7/terraform_1.8.3_linux_amd64.zip -o terraform.zip \
+curl -fsSL https://releases.hashicorp.com/terraform/1.8.3/terraform_1.8.3_linux_amd64.zip -o terraform.zip \
 && unzip terraform.zip \
 && sudo mv terraform /usr/local/bin/ \
 && rm terraform.zip
