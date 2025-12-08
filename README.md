@@ -12,6 +12,10 @@ Deploy automatizado do WordPress na AWS usando Terraform, Ansible e Docker.
 
 ## Pré-requisitos
 
+Uma IDE (Visual Studio Code ou similar)
+WSL
+Conta free tier na AWS
+
 ### Instalação das ferramentas:
 
 ```
