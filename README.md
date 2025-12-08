@@ -4,11 +4,11 @@ Deploy automatizado do WordPress na AWS usando Terraform, Ansible e Docker.
 
 ##  Características
 
-- ✅ **Infraestrutura como Código** (Terraform)
-- ✅ **Configuração automatizada** (Ansible) 
-- ✅ **Containerizado** (Docker Compose)
-- ✅ **Free Tier** (t3.micro, 8GB EBS)
-- ✅ **1 comando para deploy completo**
+- **Infraestrutura como Código** (Terraform)
+- **Configuração automatizada** (Ansible) 
+- **Containerizado** (Docker Compose)
+- **Free Tier** (t3.micro, 8GB EBS)
+- **1 comando para deploy completo**
 
 ## Pré-requisitos
 
@@ -38,6 +38,9 @@ sudo ./aws/install
 
 Configurar credencias: ```aws configure```
 (As credencias são geradas pelo IAM da AWS)
+<img width="543" height="194" alt="aws" src="https://github.com/user-attachments/assets/66dd8881-19b4-4ca9-a938-c331780f7719" />
+
+
 
 # Para realizar o Deploy
 
@@ -75,7 +78,7 @@ Usar o script loop.sh para rodar o código quantas vezes quiser realizar Deploy 
 
 Passar um número como argumento para o número de vezes a ser repetido o Deploy juntamente com benchmark
 
-Exemplo: ```./loop.sh 13
+Exemplo: ```./loop.sh 13```
 
 
 
